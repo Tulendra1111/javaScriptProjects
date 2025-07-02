@@ -1,54 +1,100 @@
-# 🎨 Color Switcher - DOM Project
+# 🌈 Color Switcher & 🧮 BMI Calculator - DOM Projects
 
-This is a simple and interactive **JavaScript DOM project** that allows users to change the background color of a webpage by clicking on colored buttons. It's a beginner-friendly mini-project to demonstrate the usage of DOM selectors and event handling in JavaScript.
+This repository contains two beginner-friendly DOM manipulation projects built with **HTML**, **CSS**, and **Vanilla JavaScript**:
 
-## 📁 Project Structure
+- 🎨 Color Switcher
+- 🧮 BMI Calculator
+
+Each project demonstrates practical usage of the DOM API, event handling, form input validation, and styling.
+
+---
+
+## 🎨 Project 1: Color Switcher
+
+### ✅ Overview
+
+A simple interactive webpage that allows users to change the background color by clicking on colored buttons.
+
+### 📁 Files
 
 
-## 🚀 How It Works
+### 🚀 How It Works
 
-- The web page displays a set of colored buttons (Grey, White, Blue, Yellow, Brown).
-- When a user clicks on any of these buttons, the background color of the entire page changes to the selected color.
-- This is achieved using JavaScript's DOM manipulation (`querySelectorAll`, `addEventListener`, and `style.backgroundColor`).
+- Multiple color buttons are displayed.
+- On click, the `body` background color is changed using JavaScript.
+- Demonstrates event delegation and inline style manipulation.
 
-## 🧠 Concepts Used
+### 💡 Key Concepts
 
-- HTML for structure
-- CSS for styling
-- JavaScript for:
-  - DOM selection
-  - Event handling
-  - Styling changes based on user interaction
+- `querySelectorAll` for selecting buttons
+- `addEventListener` for handling clicks
+- Changing DOM styles dynamically
 
-## 💡 Usage
+---
 
-1. Clone or download the repository.
-2. Open `index.html` in a browser.
-3. Click on any colored square to see the background color of the page change instantly.
+## 🧮 Project 2: BMI Calculator
 
-## 📷 Preview
+### ✅ Overview
 
-![Color Switcher Demo](https://via.placeholder.com/600x300?text=Color+Switcher+Demo)
+A simple Body Mass Index (BMI) calculator that takes height (in cm) and weight (in kg) as input and displays the calculated BMI with a weight range guide.
 
-## 🛠️ Technologies
+### 📁 Files
+
+
+### 🚀 How It Works
+
+- Users input height and weight in a form.
+- On submit, JavaScript validates the inputs and calculates BMI.
+- Displays the BMI value and a reference weight guide.
+
+### 💡 Key Concepts
+
+- DOM form handling and `submit` event
+- Input validation using `isNaN` and empty checks
+- Dynamic HTML updates using `innerHTML`
+
+---
+
+## 🛠️ Built With
 
 - HTML5
 - CSS3
-- JavaScript (Vanilla JS)
+- JavaScript (ES6)
 
-## 📚 Learnings
+---
 
-This project helps reinforce:
-- Understanding of DOM traversal and manipulation
-- Using event listeners in JavaScript
-- Connecting CSS classes and IDs with JS logic
+## 📸 Screenshots (Optional)
 
-## 🧑‍💻 Author
+> Add your screenshots here if needed for both projects.
 
-Tulendra Chandrakar  
+---
+
+## 👨‍💻 Author
+
+**Tulendra Chandrakar**  
 Frontend Developer  
 [LinkedIn](#) | [Portfolio](#)
 
 ---
 
-Feel free to use or enhance this project as a base for other interactive JavaScript tools.
+## 📂 How to Use
+
+1. Clone this repository.
+2. Open each project folder (`color-switcher/` or `bmi-calculator/`).
+3. Open `index.html` in a browser.
+4. Interact with the features as described.
+
+---
+
+## 📚 Learnings
+
+These projects help solidify understanding of:
+
+- JavaScript DOM manipulation
+- Event handling (`click`, `submit`)
+- Form input validation and user feedback
+- Dynamic style and content updates
+
+---
+
+Happy Coding! ✨
